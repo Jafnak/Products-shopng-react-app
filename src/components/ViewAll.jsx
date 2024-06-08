@@ -12,6 +12,7 @@ const ViewAll = () => {
 
       axios.get("https://dummyjson.com/products").then(
         (response)=>{
+        
           changeData(response.data)
         }
       ).catch().finally()
